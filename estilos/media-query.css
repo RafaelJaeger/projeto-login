@@ -20,6 +20,9 @@
         float: right;
         width: 70%;
     }
+    div.campo > input {
+        transform: translateY(-12px);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -49,7 +52,7 @@
     }
 
     div.campo > input {
-        width: calc(100% - 45px);
+        width: calc(90% + 2px);
         transform: translateY(-16px);
     }
 }
